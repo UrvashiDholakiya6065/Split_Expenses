@@ -35,7 +35,7 @@ class _Demo1State extends State<Demo1> {
       body: ListView.builder(
           itemCount: groupList.length,
           itemBuilder: (context,index){
-        return Text('dummy');
+        return Text(groupList[index].name);
       }),
     );
   }
